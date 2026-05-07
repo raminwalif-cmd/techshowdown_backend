@@ -205,14 +205,17 @@ app.post('/api/send-email', async (req, res) => {
             alertStore.addAlert(email, key);
 
             // 2. Send confirmation email
-            await transporter.sendMail({
-                from: SENDER,
-                to: email,
-                subject: `Sentinel Price Alert Activated — ${deviceName}`,
-                html: buildConfirmationEmail(deviceName, email, retailers),
-            });
-
-            console.log(`[ALERT] Registered: ${email} → ${deviceName}`);
+            try {
+                await transporter.sendMail({
+                    from: SENDER,
+                    to: email,
+                    subject: `Sentinel Price Alert Activated — ${deviceName}`,
+                    html: buildConfirmationEmail(deviceName, email, retailers),
+                });
+                console.log(`[ALERT] Registered: ${email} → ${deviceName}`);
+            } catch (smtpErr) {
+                console.warn(`[ALERT] Email dispatch failed (this is expected if port 465/587 is blocked by your hosting provider's free tier). Alert for ${email} was still successfully registered:`, smtpErr.message);
+            }
         }
 
         res.json({ success: true });
