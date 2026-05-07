@@ -1,0 +1,50 @@
+{
+  "macbook:JB Hi-Fi": {
+    "price": 100,
+    "previousPrice": 100,
+    "url": "https://www.jbhifi.com.au/search?query=macbook+pro+m5+max",
+    "lastChecked": "2026-04-22T21:00:16.827Z"
+  },
+  "macbook:Officeworks": {
+    "price": 119,
+    "previousPrice": 119,
+    "url": "https://www.officeworks.com.au/shop/officeworks/search?q=macbook+pro+m5+max&view=grid&page=1&sortby=tmp_priceSort&ascending=true",
+    "lastChecked": "2026-04-22T21:00:33.021Z"
+  },
+  "acer:JB Hi-Fi": {
+    "price": 100,
+    "previousPrice": 100,
+    "url": "https://www.jbhifi.com.au/search?query=acer+aspire+14+ai",
+    "lastChecked": "2026-04-22T21:00:46.408Z"
+  },
+  "acer:Officeworks": {
+    "price": 199,
+    "previousPrice": 148,
+    "url": "https://www.officeworks.com.au/shop/officeworks/search?q=acer+aspire+14+ai&view=grid&page=1&sortby=tmp_priceSort&ascending=true",
+    "lastChecked": "2026-04-22T21:00:58.883Z"
+  },
+  "iphone:JB Hi-Fi": {
+    "price": 100,
+    "previousPrice": null,
+    "url": "https://www.jbhifi.com.au/search?query=iphone+17+pro+max",
+    "lastChecked": "2026-04-22T21:01:11.762Z"
+  },
+  "iphone:Telstra": {
+    "price": 1398.96,
+    "previousPrice": null,
+    "url": "https://www.telstra.com.au/mobile-phones?search=iPhone+17+Pro+Max",
+    "lastChecked": "2026-04-22T21:01:32.353Z"
+  },
+  "samsung:JB Hi-Fi": {
+    "price": 100,
+    "previousPrice": null,
+    "url": "https://www.jbhifi.com.au/search?query=samsung+galaxy+s25+ultra",
+    "lastChecked": "2026-04-22T21:02:17.474Z"
+  },
+  "samsung:Telstra": {
+    "price": 1398.96,
+    "previousPrice": null,
+    "url": "https://www.telstra.com.au/mobile-phones?search=Galaxy+S25+Ultra",
+    "lastChecked": "2026-04-22T21:02:35.236Z"
+  }
+}

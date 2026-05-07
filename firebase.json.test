@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "public_html",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": "sentinelApi"
+      }
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  }
+}

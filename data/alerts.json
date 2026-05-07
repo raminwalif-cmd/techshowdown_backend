@@ -1,0 +1,92 @@
+[
+  {
+    "email": "test@test.com",
+    "deviceKey": "macbook",
+    "registeredAt": "2026-04-13T09:51:29.809Z",
+    "active": true
+  },
+  {
+    "email": "sabrina.ramin3@gmail.com",
+    "deviceKey": "acer",
+    "registeredAt": "2026-04-14T00:04:10.835Z",
+    "active": true
+  },
+  {
+    "email": "sabrina.ramin3@gmail.com",
+    "deviceKey": "macbook",
+    "registeredAt": "2026-04-14T00:04:20.286Z",
+    "active": true
+  },
+  {
+    "email": "ramin.walif@gmail.com",
+    "deviceKey": "macbook",
+    "registeredAt": "2026-04-14T06:30:34.875Z",
+    "active": true
+  },
+  {
+    "email": "rahat.rony@gmail.com",
+    "deviceKey": "macbook",
+    "registeredAt": "2026-04-14T06:41:40.519Z",
+    "active": true
+  },
+  {
+    "email": "rahat.rony@gmail.com",
+    "deviceKey": "iphone",
+    "registeredAt": "2026-04-14T06:44:28.164Z",
+    "active": true
+  },
+  {
+    "email": "sabrina.ramin3@gmail.com",
+    "deviceKey": "iphone",
+    "registeredAt": "2026-04-14T08:44:57.591Z",
+    "active": true
+  },
+  {
+    "email": "sabrina.ramin3@gmail.com",
+    "deviceKey": "samsung",
+    "registeredAt": "2026-04-14T08:49:51.634Z",
+    "active": true
+  },
+  {
+    "email": "ramin.walif@gmail.com",
+    "deviceKey": "samsung",
+    "registeredAt": "2026-04-15T12:41:28.003Z",
+    "active": true
+  },
+  {
+    "email": "umme.amera@gmail.com",
+    "deviceKey": "macbook",
+    "registeredAt": "2026-04-16T00:37:58.376Z",
+    "active": true
+  },
+  {
+    "email": "umme.amera@gmail.com",
+    "deviceKey": "acer",
+    "registeredAt": "2026-04-16T00:38:02.892Z",
+    "active": true
+  },
+  {
+    "email": "rahat.rony@gmail.com",
+    "deviceKey": "acer",
+    "registeredAt": "2026-04-16T04:02:34.474Z",
+    "active": true
+  },
+  {
+    "email": "ebony.walif@gmail.com",
+    "deviceKey": "macbook",
+    "registeredAt": "2026-04-16T08:18:05.711Z",
+    "active": true
+  },
+  {
+    "email": "ebony.walif@gmail.com",
+    "deviceKey": "acer",
+    "registeredAt": "2026-04-16T08:18:11.013Z",
+    "active": true
+  },
+  {
+    "email": "umme.amera@gmail.com",
+    "deviceKey": "iphone",
+    "registeredAt": "2026-05-05T08:05:25.219Z",
+    "active": true
+  }
+]

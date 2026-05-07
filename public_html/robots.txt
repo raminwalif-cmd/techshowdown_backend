@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techshowdown-final-8a12c.web.app/sitemap.xml

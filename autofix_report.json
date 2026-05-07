@@ -1,0 +1,340 @@
+{
+  "timestamp": "2026-04-16T02:44:20.154Z",
+  "filesScanned": [
+    "index.html",
+    "phones.html",
+    "guide.html"
+  ],
+  "totalIssues": 4,
+  "totalFixes": 1,
+  "totalWarnings": 49,
+  "orphanedAssets": [
+    "acer_cpu.png",
+    "acer_display.jpg",
+    "acer_earthion_sustainable.jpg",
+    "acer_hero_user.png",
+    "acer_npu_directlink.jpg",
+    "acer_spatial_audio.jpg",
+    "acer_ssd.png",
+    "android_16_galaxy_guide_visual_1775864659734.png",
+    "apple_m5_cpu.jpg",
+    "controlcenter.png",
+    "galaxy_spen.jpg",
+    "icloud_private_enclave.png",
+    "ios19_dynamic_island_siri_1775866093647.png",
+    "ios19_neural_interface_guide_1775864427929.png",
+    "macbook_3d.glb",
+    "macbook_cpu.png",
+    "macbook_display.png",
+    "macbook_hero_new.png",
+    "macbook_hero_side_profile_1775741632896.png",
+    "macbook_hero_user.png",
+    "macbook_m5_max_final.png",
+    "macbook_m5_max_final_hero_1775739585707.png",
+    "macbook_m5_max_hero_1775727985404.png",
+    "macbook_m5_max_hero_1775728058363.png",
+    "macbook_ram.jpg",
+    "macbook_side_hero.png",
+    "macbook_spatial_audio.png",
+    "macbook_thunderbolt5.jpg",
+    "macbook_wifi7_pro.jpg",
+    "macbook_xdr_display.jpg",
+    "macos_sequoia_ai_ui_hero_1775783819070.png",
+    "macos_sequoia_guide_visual_1775864344548.png",
+    "macos_spotlight_stage_manager_1775866078261.png",
+    "media__1775727811313.png",
+    "media__1775739457999.png",
+    "media__1775741580710.png",
+    "media__1775743357056.png",
+    "media__1775744896656.png",
+    "oled_screen.jpg",
+    "samsung_ram.jpg",
+    "software_ecosystem_comparison_infographic_1775783936096.png",
+    "storage.png",
+    "techshowdown_welcome_hero.png",
+    "windows_11_ai_matrix_guide_1775864561598.png",
+    "windows_11_ai_ui_matrix_1775783846620.png"
+  ],
+  "healthCheck": {
+    "status": 200,
+    "latencyMs": 319,
+    "ok": true,
+    "timestamp": "2026-04-16T02:44:21.007Z"
+  },
+  "issues": [
+    {
+      "file": "phones.html",
+      "type": "BROKEN_IMAGE",
+      "detail": "src=\"assets/appleintelligence.png?v=2\" → file not found"
+    },
+    {
+      "file": "phones.html",
+      "type": "BROKEN_SCRIPT",
+      "detail": "<script src=\"phones_scripts.js?v=2.2.0\"> → file not found → removing tag"
+    },
+    {
+      "file": "guide.html",
+      "type": "BROKEN_IMAGE",
+      "detail": "src=\"assets/storagesense.png\" → file not found"
+    },
+    {
+      "file": "guide.html",
+      "type": "BROKEN_IMAGE",
+      "detail": "src=\"assets/phonelink.png\" → file not found"
+    }
+  ],
+  "fixes": [
+    {
+      "file": "phones.html",
+      "type": "BROKEN_SCRIPT",
+      "detail": "Removed broken <script src=\"phones_scripts.js?v=2.2.0\">"
+    }
+  ],
+  "warnings": [
+    {
+      "file": "index.html",
+      "type": "MISSING_NAV_LINK",
+      "detail": "No link to \"index.html\" (LAPTOPS) found on this page"
+    },
+    {
+      "file": "phones.html",
+      "type": "UNRESOLVABLE_IMAGE",
+      "detail": "src=\"assets/appleintelligence.png?v=2\" → no matching asset found"
+    },
+    {
+      "file": "guide.html",
+      "type": "UNRESOLVABLE_IMAGE",
+      "detail": "src=\"assets/storagesense.png\" → no matching asset found"
+    },
+    {
+      "file": "guide.html",
+      "type": "UNRESOLVABLE_IMAGE",
+      "detail": "src=\"assets/phonelink.png\" → no matching asset found"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"acer_cpu.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"acer_display.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"acer_earthion_sustainable.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"acer_hero_user.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"acer_npu_directlink.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"acer_spatial_audio.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"acer_ssd.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"android_16_galaxy_guide_visual_1775864659734.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"apple_m5_cpu.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"controlcenter.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"galaxy_spen.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"icloud_private_enclave.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"ios19_dynamic_island_siri_1775866093647.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"ios19_neural_interface_guide_1775864427929.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_3d.glb\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_cpu.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_display.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_hero_new.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_hero_side_profile_1775741632896.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_hero_user.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_m5_max_final.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_m5_max_final_hero_1775739585707.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_m5_max_hero_1775727985404.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_m5_max_hero_1775728058363.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_ram.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_side_hero.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_spatial_audio.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_thunderbolt5.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_wifi7_pro.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macbook_xdr_display.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macos_sequoia_ai_ui_hero_1775783819070.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macos_sequoia_guide_visual_1775864344548.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"macos_spotlight_stage_manager_1775866078261.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"media__1775727811313.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"media__1775739457999.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"media__1775741580710.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"media__1775743357056.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"media__1775744896656.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"oled_screen.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"samsung_ram.jpg\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"software_ecosystem_comparison_infographic_1775783936096.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"storage.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"techshowdown_welcome_hero.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"windows_11_ai_matrix_guide_1775864561598.png\" is not referenced by any HTML page"
+    },
+    {
+      "file": "assets/",
+      "type": "ORPHANED_ASSET",
+      "detail": "\"windows_11_ai_ui_matrix_1775783846620.png\" is not referenced by any HTML page"
+    }
+  ]
+}
